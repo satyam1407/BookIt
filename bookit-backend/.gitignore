@@ -6,7 +6,7 @@ package-lock.json
 yarn.lock
 
 # Environment variables (never commit sensitive data)
-.env
+# .env
 .env.local
 .env.*.local
 
