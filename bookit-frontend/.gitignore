@@ -1,0 +1,70 @@
+# Frontend .gitignore - PLACE THIS IN: bookit-frontend/.gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables (never commit sensitive data)
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.vscode-settings
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Vite specific
+.vite/
+
+# Cache
+.cache/
+*.cache
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS
+.AppleDouble
+.AppleDB
+
+# Misc
+.env.*.local
+*.pem
